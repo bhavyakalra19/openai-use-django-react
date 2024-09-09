@@ -13,3 +13,17 @@ Implement functionalities to view details of existing places, and delete entries
 Leverage Best Practices and Modular Components.
 Ensure secure handling of API keys and interactions with the OpenAI API.
 Clear instructions and commands should be provided for setting up and running both the backend server and the frontend application.
+
+For Django installation:-
+Create virtual env and run
+1. pip install openai
+2. pip install djangorestframework
+3. pip install python-dotenv
+4. python manage.py makemigrations
+5. python manage.py migrate
+6. python manage.py runserver
+7. Add your open ai key in  .env file
+
+For ReactjS
+1. npm install
+2. npm start
